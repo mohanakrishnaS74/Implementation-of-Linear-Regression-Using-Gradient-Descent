@@ -8,19 +8,19 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
- 1. Read the dataset from the CSV file and extract the input feature (R&D Spend) and output variable (Profit). Apply feature scaling to the input data.
+1.Read the dataset from the CSV file and extract the input feature (R&D Spend) and output variable (Profit). Apply feature scaling to the input data.
 
 2.Initialize parameters such as weight w, bias b, learning rate α, and number of iterations (epochs).
 
 3.Perform Gradient Descent:
 
-   Predict output using the equation ŷ = w·x + b
+  Predict output using the equation ŷ = w·x + b
 
-   Compute the Mean Squared Error (loss)
+  Compute the Mean Squared Error (loss)
 
-   Calculate gradients dw and db
+  Calculate gradients dw and db
 
-   Update parameters w and b
+  Update parameters w and b
 
 4.Repeat the process for the given number of iterations and display the final regression line and loss curve.
 
